@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/img_mnc_rectangle.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,7 +60,7 @@ const config = {
         title: 'Inventory Management',
         logo: {
           alt: 'Inventory Management Logo',
-          src: 'img/logo.svg',
+          src: 'img/img_mnc_rectangle.png',
         },
         items: [
           // {
@@ -69,10 +69,14 @@ const config = {
           //   position: 'left',
           //   label: 'Part',
           // },
-          { to: '/part', label: 'Part', position: 'left' },
-          { to: '/stock', label: 'Stock', position: 'left' },
-          { to: '/build', label: 'Build', position: 'left' },
-          { to: '/transaction', label: 'Transaction', position: 'left' },
+          { to: 'docs/part', label: 'Part', position: 'left' },
+          { to: 'docs/stock', label: 'Stock', position: 'left' },
+          { to: 'docs/build', label: 'Build', position: 'left' },
+          {
+            to: 'docs/transaction',
+            label: 'Transaction',
+            position: 'left',
+          },
           // {
           //   href: 'https://github.com/hrisplay/inventory_management',
           //   label: 'GitHub',
